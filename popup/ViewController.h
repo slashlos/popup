@@ -10,6 +10,10 @@
 
 @interface ViewController : NSViewController
 
+@property (retain) NSMutableDictionary * location;
+@property (retain) IBOutlet NSDictionaryController * weatherController;
+@property (retain) IBOutlet NSTableView * weatherTable;
+@property (retain) IBOutlet NSPopUpButtonCell * keyButtonCell;
 
 @end
 
